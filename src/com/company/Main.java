@@ -22,8 +22,8 @@ public class Main {
         HashMap<String, GeoData> geoDataHashMap = new HashMap<>();
 
         try {
-            CSVParser concapParser = new CSVParser(new FileReader(Paths.get("/home/jah/IdeaProjects/JavaDataManuplater/src/com/company/concap.csv").toFile()), CSVFormat.DEFAULT);
-            CSVParser outputParser = new CSVParser(new FileReader(Paths.get("/home/jah/IdeaProjects/JavaDataManuplater/src/com/company/output.csv").toFile()), CSVFormat.DEFAULT);
+            CSVParser concapParser = new CSVParser(new FileReader(Paths.get("/home/jah/IdeaProjects/JavaDataManuplater/src/com/company/concap.csv").toFile()), CSVFormat.DEFAULT); //this is my setup please use your own unless you might end-up with problems
+            CSVParser outputParser = new CSVParser(new FileReader(Paths.get("/home/jah/IdeaProjects/JavaDataManuplater/src/com/company/output.csv").toFile()), CSVFormat.DEFAULT); //this is my setup please use your own unless you might end-up with problems
 
 
 
